@@ -1,6 +1,6 @@
 # THREADS VIDEO DOWNLOADER - WITH TERMUX
 <div align="center">
-  <img src="https://github.com/RozhakXD/SnapSave/assets/65714340/c4cd5504-dc71-4bea-9060-0015a239b4fd">
+  <img src="Penyimpanan/SnapSave.jpeg">
   <br>
   <br>
   <p>
@@ -17,7 +17,7 @@
 ##
 
 ### What is SnapSave?
-[**SnapSave**](https://github.com/RozhakXD/SnapSave) is a tools used to make it easier for users to save videos in threads easily and efficiently. You can use this tools to download videos by just entering a link!
+[**SnapSave**](https://github.com/RozhakXD/SnapSave) is a tools used to make it easier for users to save videos in threads easily and efficiently. You can use this tools to download videos by just entering a link.
 
 You can also write multiple links with a comma separator in each link to download multiple videos.
 
