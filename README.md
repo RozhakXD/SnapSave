@@ -19,7 +19,7 @@
 ### What is SnapSave?
 [**SnapSave**](https://github.com/RozhakXD/SnapSave) is a tools used to make it easier for users to save videos in threads easily and efficiently. You can use this tools to download videos by just entering a link.
 
-You can fill in multiple links by adding commas to download multiple videos.
+You can also fill in multiple links by adding commas to download multiple videos.
 
 ### Termux command?
 First you must have the [Termux](https://f-droid.org/repo/com.termux_118.apk) to run this script and for how to use it can be seen on [**Youtube**](https://www.youtube.com/rozhakid). Then you enter this command into termux!
