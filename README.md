@@ -29,6 +29,7 @@ $ apt update -y && apt upgrade -y
 $ pkg install git python-pip
 $ git clone https://github.com/RozhakXD/SnapSave
 $ cd "SnapSave"
+$ termux-setup-storage
 $ python -m pip install -r requirements.txt
 $ python Run.py
 ```
