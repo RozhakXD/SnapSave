@@ -91,15 +91,17 @@ class MAIN:
                 response = session.get(video_url, allow_redirects = True)
             except TooManyRedirects:
                 response = session.get(video_url, allow_redirects = False)
-            session.headers.update({
-                "Accept-Encoding": "identity;q=1, *;q=0",
-                "Sec-Fetch-Site": "same-origin",
-                "Sec-Fetch-Mode": "no-cors",
-                "Accept": "*/*",
-                "Range": "bytes=0-",
-                "Referer": str(response.url),
-                "Sec-Fetch-Dest": "video",
-            })
+            session.headers.update(
+                {
+                    "Accept-Encoding": "identity;q=1, *;q=0",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Sec-Fetch-Mode": "no-cors",
+                    "Accept": "*/*",
+                    "Range": "bytes=0-",
+                    "Referer": str(response.url),
+                    "Sec-Fetch-Dest": "video",
+                }
+            )
             response2 = session.get(response.url, stream = True)
             self.total_size = int(response2.headers.get('Content-Length', 0))
             self.downloaded_size = 0
